@@ -492,14 +492,14 @@ body.dfm-rtl .dfm-table thead th {
     .dfm-content {
         width: 100%;
     }
-}
+    
+    .dfm-rtl .dfm-sidebar {
+        left: auto;
+        right: 0;
+        transform: translateX(110%);
+    }
 
-.dfm-rtl .dfm-sidebar {
-    left: auto;
-    right: 0;
-    transform: translateX(110%);
-}
-
-.dfm-rtl .dfm-shell.sidebar-open .dfm-sidebar {
-    transform: translateX(0);
+    .dfm-rtl .dfm-shell.sidebar-open .dfm-sidebar {
+        transform: translateX(0);
+    }
 }
