@@ -1,0 +1,82 @@
+﻿@page
+@using DairyFamilyManager.Models
+@model DairyFamilyManager.Pages.Products.EditModel
+@{
+    ViewData["Title"] = "Edit Product";
+}
+
+<h2>Edit Product</h2>
+
+@if (!string.IsNullOrWhiteSpace(Model.Error))
+{
+        <div style="color:red">@Model.Error</div>
+}
+
+<form method="post">
+    <input type="hidden" name="Id" value="@Model.Id" />
+
+    <div>
+        <label>Name (EN)</label><br />
+        <input name="NameEn" value="@Model.NameEn" />
+    </div>
+
+    <div style="margin-top:10px;">
+        <label>Name (AR)</label><br />
+        <input name="NameAr" value="@Model.NameAr" />
+    </div>
+
+    <div style="margin-top:10px;">
+        <label>Label (EN) optional</label><br />
+        <input name="LabelEn" value="@Model.LabelEn" />
+    </div>
+
+    <div style="margin-top:10px;">
+        <label>Label (AR) optional</label><br />
+        <input name="LabelAr" value="@Model.LabelAr" />
+    </div>
+
+    <div style="margin-top:10px;">
+        <label>Base Price</label><br />
+        <input name="BasePrice" value="@Model.BasePrice" />
+    </div>
+
+    <hr />
+
+    <div>
+        <label>Factory Profit Type</label><br />
+        <select name="FactoryProfitType">
+            <option value="Fixed" selected="@(Model.FactoryProfitType == ProfitType.Fixed)">Fixed</option>
+            <option value="Percent" selected="@(Model.FactoryProfitType == ProfitType.Percent)">Percent</option>
+        </select>
+    </div>
+
+    <div style="margin-top:10px;">
+        <label>Factory Profit Value</label><br />
+        <input name="FactoryProfitValue" value="@Model.FactoryProfitValue" />
+    </div>
+
+    <hr />
+
+    <div>
+        <label>Distributor Profit Type</label><br />
+        <select name="DistributorProfitType">
+            <option value="Fixed" selected="@(Model.DistributorProfitType == ProfitType.Fixed)">Fixed</option>
+            <option value="Percent" selected="@(Model.DistributorProfitType == ProfitType.Percent)">Percent</option>
+        </select>
+    </div>
+
+    <div style="margin-top:10px;">
+        <label>Distributor Profit Value</label><br />
+        <input name="DistributorProfitValue" value="@Model.DistributorProfitValue" />
+    </div>
+
+    <div style="margin-top:10px;">
+        <label>Active</label>
+        <input type="checkbox" name="IsActive" checked="@(Model.IsActive)" />
+    </div>
+
+    <div style="margin-top:15px;">
+        <button type="submit">Save</button>
+        <a href="/Products">Cancel</a>
+    </div>
+</form>

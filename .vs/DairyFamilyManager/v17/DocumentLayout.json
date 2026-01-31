@@ -1,0 +1,962 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\lang.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\lang.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\lang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\lang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\reports\\monthly.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\reports\\monthly.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\reports\\monthly.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\reports\\monthly.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\home.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\home.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\costs\\monthly.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\costs\\monthly.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\costs\\monthly.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\costs\\monthly.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\models\\monthlyproductcost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\models\\monthlyproductcost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\models\\distributordailyexpense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\models\\distributordailyexpense.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\sales\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\sales\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\sales\\summary.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\sales\\summary.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\services\\seedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\services\\seedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\models\\distributor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\models\\distributor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\sales\\entry.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\sales\\entry.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\sales\\entry.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\sales\\entry.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\models\\dailysaleline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\models\\dailysaleline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\models\\dailysale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\models\\dailysale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\models\\clientproductprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\models\\clientproductprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\models\\profittype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\models\\profittype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\clients\\prices.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\clients\\prices.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\clients\\prices.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\clients\\prices.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\clients\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\clients\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\clients\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\clients\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\clients\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\clients\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\clients\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\clients\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\clients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\clients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\clients\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\clients\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\products\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\products\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\products\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\products\\create.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\products\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\products\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|d:\\projects\\_ testing apps\\dairyfamilymanager\\dairyfamilymanager\\services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6D13715-C3D2-4566-AF96-C424EFC59883}|DairyFamilyManager\\DairyFamilyManager.csproj|solutionrelative:dairyfamilymanager\\services\\passwordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 292,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Lang.cshtml.cs",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Lang.cshtml.cs",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\Lang.cshtml.cs",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Lang.cshtml.cs",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\Lang.cshtml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T17:21:35.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Lang.cshtml",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Lang.cshtml",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\Lang.cshtml",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Lang.cshtml",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\Lang.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-31T17:21:27.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAIwIcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-31T16:31:26.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-31T16:27:03.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Program.cs",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Program.cs",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Program.cs",
+              "RelativeToolTip": "DairyFamilyManager\\Program.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAqwFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T13:51:52.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Monthly.cshtml",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Reports\\Monthly.cshtml",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\Reports\\Monthly.cshtml",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Reports\\Monthly.cshtml",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\Reports\\Monthly.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAkwKIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-31T16:16:25.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Monthly.cshtml.cs",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Reports\\Monthly.cshtml.cs",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\Reports\\Monthly.cshtml.cs",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Reports\\Monthly.cshtml.cs",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\Reports\\Monthly.cshtml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T16:16:32.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "DairyFamilyManager\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAALQAAAAAAAAAAAAmwMEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-31T16:27:47.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\appsettings.json",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\appsettings.json",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\appsettings.json",
+              "RelativeToolTip": "DairyFamilyManager\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-31T13:57:57.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "DairyFamilyManager\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAqwLkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T13:51:04.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Home.cshtml",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\Home.cshtml",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Home.cshtml",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\Home.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-31T14:14:51.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Home.cshtml.cs",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Home.cshtml.cs",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\Home.cshtml.cs",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Home.cshtml.cs",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\Home.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T14:24:16.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Monthly.cshtml.cs",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Costs\\Monthly.cshtml.cs",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\Costs\\Monthly.cshtml.cs",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Costs\\Monthly.cshtml.cs",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\Costs\\Monthly.cshtml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwKMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T16:14:32.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Monthly.cshtml",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Costs\\Monthly.cshtml",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\Costs\\Monthly.cshtml",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Costs\\Monthly.cshtml",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\Costs\\Monthly.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-31T16:14:23.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MonthlyProductCost.cs",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Models\\MonthlyProductCost.cs",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Models\\MonthlyProductCost.cs",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Models\\MonthlyProductCost.cs",
+              "RelativeToolTip": "DairyFamilyManager\\Models\\MonthlyProductCost.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T16:13:02.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DistributorDailyExpense.cs",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Models\\DistributorDailyExpense.cs",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Models\\DistributorDailyExpense.cs",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Models\\DistributorDailyExpense.cs",
+              "RelativeToolTip": "DairyFamilyManager\\Models\\DistributorDailyExpense.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T16:06:26.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Client.cs",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Models\\Client.cs",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Models\\Client.cs",
+              "RelativeToolTip": "DairyFamilyManager\\Models\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T15:31:40.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Summary.cshtml.cs",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Sales\\Summary.cshtml.cs",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\Sales\\Summary.cshtml.cs",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Sales\\Summary.cshtml.cs",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\Sales\\Summary.cshtml.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAcwOAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T16:08:51.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Summary.cshtml",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Sales\\Summary.cshtml",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\Sales\\Summary.cshtml",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Sales\\Summary.cshtml",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\Sales\\Summary.cshtml",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAIwJAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-31T16:08:44.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SeedService.cs",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Services\\SeedService.cs",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Services\\SeedService.cs",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Services\\SeedService.cs",
+              "RelativeToolTip": "DairyFamilyManager\\Services\\SeedService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T14:01:27.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Distributor.cs",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Models\\Distributor.cs",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Models\\Distributor.cs",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Models\\Distributor.cs",
+              "RelativeToolTip": "DairyFamilyManager\\Models\\Distributor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T16:06:14.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Entry.cshtml",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Sales\\Entry.cshtml",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\Sales\\Entry.cshtml",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Sales\\Entry.cshtml",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\Sales\\Entry.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAJEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-31T15:58:40.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Entry.cshtml.cs",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Sales\\Entry.cshtml.cs",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\Sales\\Entry.cshtml.cs",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Sales\\Entry.cshtml.cs",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\Sales\\Entry.cshtml.cs",
+              "ViewState": "AgIAAOEAAAAAAAAAAAASwP4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T15:58:48.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Index.cshtml",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-31T14:05:44.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DailySaleLine.cs",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Models\\DailySaleLine.cs",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Models\\DailySaleLine.cs",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Models\\DailySaleLine.cs",
+              "RelativeToolTip": "DairyFamilyManager\\Models\\DailySaleLine.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAxwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T15:52:33.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DailySale.cs",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Models\\DailySale.cs",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Models\\DailySale.cs",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Models\\DailySale.cs",
+              "RelativeToolTip": "DairyFamilyManager\\Models\\DailySale.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T15:52:22.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ProfitType.cs",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Models\\ProfitType.cs",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Models\\ProfitType.cs",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Models\\ProfitType.cs",
+              "RelativeToolTip": "DairyFamilyManager\\Models\\ProfitType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T14:20:24.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Models\\Product.cs",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Models\\Product.cs",
+              "RelativeToolTip": "DairyFamilyManager\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T14:20:43.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ClientProductPrice.cs",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Models\\ClientProductPrice.cs",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Models\\ClientProductPrice.cs",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Models\\ClientProductPrice.cs",
+              "RelativeToolTip": "DairyFamilyManager\\Models\\ClientProductPrice.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T15:32:01.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Models\\AppUser.cs",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Models\\AppUser.cs",
+              "RelativeToolTip": "DairyFamilyManager\\Models\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T13:51:44.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Logout.cshtml",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\Logout.cshtml",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Logout.cshtml",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-31T14:05:14.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\Logout.cshtml.cs",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Logout.cshtml.cs",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\Logout.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T14:05:19.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Prices.cshtml.cs",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Clients\\Prices.cshtml.cs",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\Clients\\Prices.cshtml.cs",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Clients\\Prices.cshtml.cs",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\Clients\\Prices.cshtml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwH0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T15:35:57.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Prices.cshtml",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Clients\\Prices.cshtml",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\Clients\\Prices.cshtml",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Clients\\Prices.cshtml",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\Clients\\Prices.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-31T15:35:47.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Login.cshtml",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\Login.cshtml",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Login.cshtml",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\Login.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-31T14:04:07.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\WeatherForecast.cs",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\WeatherForecast.cs",
+              "RelativeToolTip": "DairyFamilyManager\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T15:47:57.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\Login.cshtml.cs",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Login.cshtml.cs",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\Login.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T14:04:23.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\Products\\Edit.cshtml",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Products\\Edit.cshtml",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\Products\\Edit.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAuwD4AAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-31T14:23:39.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Clients\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\Clients\\Edit.cshtml.cs",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Clients\\Edit.cshtml.cs",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\Clients\\Edit.cshtml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAkwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T15:34:38.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Clients\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\Clients\\Edit.cshtml",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Clients\\Edit.cshtml",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\Clients\\Edit.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAgwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-31T15:34:30.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Clients\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\Clients\\Create.cshtml.cs",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Clients\\Create.cshtml.cs",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\Clients\\Create.cshtml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T15:34:11.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Clients\\Create.cshtml",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\Clients\\Create.cshtml",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Clients\\Create.cshtml",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\Clients\\Create.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-31T15:34:05.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Clients\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\Clients\\Index.cshtml.cs",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Clients\\Index.cshtml.cs",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\Clients\\Index.cshtml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvxkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T15:33:45.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Clients\\Index.cshtml",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\Clients\\Index.cshtml",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Clients\\Index.cshtml",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\Clients\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-31T15:33:34.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Edit.cshtml.cs",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Products\\Edit.cshtml.cs",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\Products\\Edit.cshtml.cs",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Products\\Edit.cshtml.cs",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\Products\\Edit.cshtml.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAuwGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T14:23:51.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Create.cshtml.cs",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Products\\Create.cshtml.cs",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\Products\\Create.cshtml.cs",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Products\\Create.cshtml.cs",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\Products\\Create.cshtml.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAiwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T14:22:42.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\Products\\Create.cshtml",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Products\\Create.cshtml",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\Products\\Create.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAIwDwAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-31T14:22:26.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Products\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\Products\\Index.cshtml.cs",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Products\\Index.cshtml.cs",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\Products\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T14:22:02.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\Products\\Index.cshtml",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Products\\Index.cshtml",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\Products\\Index.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-31T14:21:51.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Pages\\Index.cshtml.cs",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "DairyFamilyManager\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T14:05:54.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Properties\\launchSettings.json",
+              "RelativeToolTip": "DairyFamilyManager\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAACIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-31T14:08:39.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Services\\AuthService.cs",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Services\\AuthService.cs",
+              "RelativeToolTip": "DairyFamilyManager\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T14:01:14.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "PasswordService.cs",
+              "DocumentMoniker": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Services\\PasswordService.cs",
+              "RelativeDocumentMoniker": "DairyFamilyManager\\Services\\PasswordService.cs",
+              "ToolTip": "D:\\Projects\\_ Testing Apps\\DairyFamilyManager\\DairyFamilyManager\\Services\\PasswordService.cs",
+              "RelativeToolTip": "DairyFamilyManager\\Services\\PasswordService.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAADwvysAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T14:01:02.397Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

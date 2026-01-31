@@ -1,0 +1,41 @@
+﻿@page
+@model DairyFamilyManager.Pages.Clients.EditModel
+@{
+    ViewData["Title"] = "Edit Client";
+}
+
+<h2>Edit Client</h2>
+
+@if (!string.IsNullOrWhiteSpace(Model.Error))
+{
+    <div style="color:red">@Model.Error</div>
+}
+
+<form method="post">
+    <input type="hidden" name="Id" value="@Model.Id" />
+
+    <div>
+        <label>Name (EN)</label><br />
+        <input name="NameEn" value="@Model.NameEn" />
+    </div>
+
+    <div style="margin-top:10px;">
+        <label>Name (AR)</label><br />
+        <input name="NameAr" value="@Model.NameAr" />
+    </div>
+
+    <div style="margin-top:10px;">
+        <label>Delivered by distributor</label>
+        <input type="checkbox" name="UsesDistributor" checked="@(Model.UsesDistributor)" />
+    </div>
+
+    <div style="margin-top:10px;">
+        <label>Active</label>
+        <input type="checkbox" name="IsActive" checked="@(Model.IsActive)" />
+    </div>
+
+    <div style="margin-top:15px;">
+        <button type="submit">Save</button>
+        <a href="/Clients">Cancel</a>
+    </div>
+</form>

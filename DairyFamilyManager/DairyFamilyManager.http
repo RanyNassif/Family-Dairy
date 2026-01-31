@@ -1,0 +1,6 @@
+@DairyFamilyManager_HostAddress = http://localhost:5154
+
+GET {{DairyFamilyManager_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

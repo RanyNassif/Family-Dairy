@@ -1,0 +1,38 @@
+﻿@page
+@model DairyFamilyManager.Pages.LoginModel
+@{
+    ViewData["Title"] = "Login";
+    Layout = "_AuthLayout";
+}
+
+<div class="dfm-pagehead mb-3">
+    <h1 class="dfm-h1">Sign in</h1>
+    <div class="dfm-muted">Use your username and password to access the system.</div>
+</div>
+
+@if (!string.IsNullOrWhiteSpace(Model.Error))
+{
+    <div class="alert alert-danger d-flex align-items-start gap-2" role="alert">
+        <i class="bi bi-exclamation-triangle"></i>
+        <div>@Model.Error</div>
+    </div>
+}
+
+<form method="post" class="dfm-form">
+    @Html.AntiForgeryToken()
+
+    <div class="mb-3">
+        <label class="form-label">Username</label>
+        <input class="form-control" name="Username" value="@Model.Username" autocomplete="username" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Password</label>
+        <input class="form-control" name="Password" type="password" autocomplete="current-password" />
+    </div>
+
+    <button type="submit" class="btn btn-primary w-100 dfm-btn-lg">
+        <i class="bi bi-box-arrow-in-right"></i>
+        <span>Login</span>
+    </button>
+</form>

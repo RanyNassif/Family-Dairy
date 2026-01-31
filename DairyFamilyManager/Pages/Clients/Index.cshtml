@@ -1,0 +1,94 @@
+﻿@page
+@model DairyFamilyManager.Pages.Clients.IndexModel
+@{
+    ViewData["Title"] = "Clients";
+}
+
+<div class="dfm-pagehead mb-3">
+    <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
+        <div>
+            <h1 class="dfm-h1 mb-1">Clients</h1>
+            <div class="dfm-muted">Manage your clients and their pricing behavior.</div>
+        </div>
+
+        <div class="d-flex align-items-center gap-2">
+            <div class="dfm-search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="dfmClientSearch" placeholder="Search client..." />
+            </div>
+            <a class="btn btn-primary" href="/Clients/Create"><i class="bi bi-plus-circle"></i><span>Add Client</span></a>
+        </div>
+    </div>
+</div>
+
+<div class="dfm-card p-0">
+    <div class="table-responsive">
+        <table class="table table-hover align-middle mb-0 dfm-table" id="dfmClientsTable">
+            <thead>
+                <tr>
+                    <th>EN</th>
+                    <th>AR</th>
+                    <th>Distributor</th>
+                    <th>Active</th>
+                    <th class="text-end">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var c in Model.Clients)
+                {
+                    <tr>
+                        <td class="fw-semibold">@c.NameEn</td>
+                        <td>@c.NameAr</td>
+                        <td>
+                            @if (c.UsesDistributor)
+                            {
+                                <span class="badge text-bg-primary">Yes</span>
+                            }
+                            else
+                            {
+                                <span class="badge text-bg-secondary">No</span>
+                            }
+                        </td>
+                        <td>
+                            @if (c.IsActive)
+                            {
+                                <span class="badge text-bg-success">Active</span>
+                            }
+                            else
+                            {
+                                <span class="badge text-bg-light">Inactive</span>
+                            }
+                        </td>
+                        <td class="text-end">
+                            <a class="btn btn-sm btn-outline-secondary" href="/Clients/Edit?id=@c.Id"><i class="bi bi-pencil"></i><span>Edit</span></a>
+                            <a class="btn btn-sm btn-outline-primary" href="/Clients/Prices?id=@c.Id"><i class="bi bi-cash-coin"></i><span>Prices</span></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        (function () {
+            const input = document.getElementById('dfmClientSearch');
+            const table = document.getElementById('dfmClientsTable');
+            if (!input || !table) return;
+
+            function normalize(s) {
+                return (s || '').toLowerCase().trim();
+            }
+
+            input.addEventListener('input', function () {
+                const q = normalize(input.value);
+                const rows = table.querySelectorAll('tbody tr');
+                rows.forEach(function (row) {
+                    const txt = normalize(row.innerText);
+                    row.style.display = q === '' || txt.includes(q) ? '' : 'none';
+                });
+            });
+        })();
+    </script>
+}

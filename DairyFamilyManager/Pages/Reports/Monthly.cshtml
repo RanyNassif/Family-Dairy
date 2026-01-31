@@ -1,0 +1,162 @@
+﻿@page
+@model DairyFamilyManager.Pages.Reports.MonthlyModel
+@{
+    ViewData["Title"] = "Monthly Dashboard";
+}
+
+<div class="dfm-pagehead mb-3">
+    <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
+        <div>
+            <h1 class="dfm-h1 mb-1">Monthly Dashboard</h1>
+            <div class="dfm-muted">KPIs, charts, and top products for the selected month.</div>
+        </div>
+    </div>
+</div>
+
+@if (!string.IsNullOrWhiteSpace(Model.Error))
+{
+    <div class="alert alert-danger d-flex align-items-start gap-2" role="alert">
+        <i class="bi bi-exclamation-triangle"></i>
+        <div>@Model.Error</div>
+    </div>
+}
+
+<div class="dfm-card p-3 mb-3">
+    <form method="get" class="row g-3 align-items-end dfm-form">
+        <div class="col-12 col-md-3">
+            <label class="form-label">Year</label>
+            <input class="form-control" name="year" value="@Model.Year" />
+        </div>
+
+        <div class="col-12 col-md-3">
+            <label class="form-label">Month</label>
+            <input class="form-control" name="month" value="@Model.Month" />
+            <div class="form-text">1 to 12</div>
+        </div>
+
+        <div class="col-12 col-md-2 d-grid">
+            <button class="btn btn-primary dfm-btn-lg" type="submit"><i class="bi bi-arrow-repeat"></i><span>Load</span></button>
+        </div>
+    </form>
+</div>
+
+<div class="row g-3 mb-3">
+    <div class="col-12 col-lg-4">
+        <div class="dfm-kpi">
+            <div class="label">Total Sales</div>
+            <div class="value">@Model.TotalSales</div>
+        </div>
+    </div>
+    <div class="col-12 col-lg-4">
+        <div class="dfm-kpi">
+            <div class="label">Factory Net After Costs</div>
+            <div class="value">@Model.FactoryNetAfterCosts</div>
+        </div>
+    </div>
+    <div class="col-12 col-lg-4">
+        <div class="dfm-kpi">
+            <div class="label">Distributor Net</div>
+            <div class="value">@Model.DistributorNet</div>
+        </div>
+    </div>
+</div>
+
+<div class="row g-3 mb-3">
+    <div class="col-12 col-xl-7">
+        <div class="dfm-card p-3">
+            <div class="fw-bold mb-2">Sales per day</div>
+            <canvas id="salesChart" height="90"></canvas>
+        </div>
+    </div>
+
+    <div class="col-12 col-xl-5">
+        <div class="dfm-card p-3">
+            <div class="fw-bold mb-2">Top products by sales</div>
+            <canvas id="topProductsChart" height="140"></canvas>
+        </div>
+    </div>
+
+    <div class="col-12 col-xl-6">
+        <div class="dfm-card p-3">
+            <div class="fw-bold mb-2">Factory profit per day</div>
+            <canvas id="factoryChart" height="90"></canvas>
+        </div>
+    </div>
+
+    <div class="col-12 col-xl-6">
+        <div class="dfm-card p-3">
+            <div class="fw-bold mb-2">Distributor net per day</div>
+            <canvas id="distNetChart" height="90"></canvas>
+        </div>
+    </div>
+</div>
+
+<div class="dfm-card p-0">
+    <div class="px-3 py-3 border-bottom">
+        <div class="fw-bold">Top Products (by Sales)</div>
+        <div class="dfm-muted" style="font-size:13px;">Ranked by total sales amount.</div>
+    </div>
+    <div class="table-responsive">
+        <table class="table table-hover align-middle mb-0 dfm-table">
+    <thead>
+        <tr>
+            <th>Product (EN)</th>
+            <th>Product (AR)</th>
+                    <th class="text-end">Qty</th>
+                    <th class="text-end">Sales</th>
+                    <th class="text-end">Factory Profit</th>
+                    <th class="text-end">Distributor Profit</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var r in Model.TopBySales)
+        {
+            <tr>
+                        <td class="fw-semibold">@r.ProductNameEn</td>
+                <td>@r.ProductNameAr</td>
+                        <td class="text-end">@r.QuantityTotal</td>
+                        <td class="text-end">@r.SalesTotal</td>
+                        <td class="text-end">@r.FactoryProfitTotal</td>
+                        <td class="text-end">@r.DistributorProfitTotal</td>
+            </tr>
+        }
+    </tbody>
+        </table>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<script>
+    const dailyLabels = @Html.Raw(Model.DailyLabelsJson);
+    const dailySales = @Html.Raw(Model.DailySalesJson);
+    const dailyFactory = @Html.Raw(Model.DailyFactoryProfitJson);
+    const dailyDistNet = @Html.Raw(Model.DailyDistributorNetJson);
+
+    const topLabels = @Html.Raw(Model.TopProductLabelsJson);
+    const topSales = @Html.Raw(Model.TopProductSalesJson);
+
+    new Chart(document.getElementById('salesChart'), {
+        type: 'line',
+        data: { labels: dailyLabels, datasets: [{ label: 'Sales', data: dailySales }] },
+        options: { responsive: true }
+    });
+
+    new Chart(document.getElementById('factoryChart'), {
+        type: 'line',
+        data: { labels: dailyLabels, datasets: [{ label: 'Factory Profit', data: dailyFactory }] },
+        options: { responsive: true }
+    });
+
+    new Chart(document.getElementById('distNetChart'), {
+        type: 'line',
+        data: { labels: dailyLabels, datasets: [{ label: 'Distributor Net', data: dailyDistNet }] },
+        options: { responsive: true }
+    });
+
+    new Chart(document.getElementById('topProductsChart'), {
+        type: 'bar',
+        data: { labels: topLabels, datasets: [{ label: 'Sales', data: topSales }] },
+        options: { responsive: true, indexAxis: 'y' }
+    });
+</script>

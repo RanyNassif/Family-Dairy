@@ -1,0 +1,62 @@
+﻿@page
+@model DairyFamilyManager.Pages.Clients.PricesModel
+@{
+    ViewData["Title"] = "Client Prices";
+}
+
+<h2>Client Prices</h2>
+
+@if (Model.Client == null)
+{
+    <div>Client not found.</div>
+    <a href="/Clients">Back</a>
+    return;
+}
+
+<p>
+    <b>Client:</b> @Model.Client.NameEn / @Model.Client.NameAr
+</p>
+
+@if (!string.IsNullOrWhiteSpace(Model.Message))
+{
+    <div style="color:green">@Model.Message</div>
+}
+
+@if (!string.IsNullOrWhiteSpace(Model.Error))
+{
+    <div style="color:red">@Model.Error</div>
+}
+
+<form method="post">
+    <input type="hidden" name="ClientId" value="@Model.Client.Id" />
+
+    <table border="1" cellpadding="6" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Product (EN)</th>
+                <th>Product (AR)</th>
+                <th>Base Price</th>
+                <th>Custom Price (leave empty to use base)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Rows.Count; i++)
+            {
+                <tr>
+                    <td>@Model.Rows[i].ProductNameEn</td>
+                    <td>@Model.Rows[i].ProductNameAr</td>
+                    <td>@Model.Rows[i].BasePrice</td>
+                    <td>
+                        <input type="hidden" name="Rows[@i].ProductId" value="@Model.Rows[i].ProductId" />
+                        <input name="Rows[@i].CustomPriceText" value="@Model.Rows[i].CustomPriceText" />
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div style="margin-top:15px;">
+        <button type="submit">Save Prices</button>
+        <a href="/Clients">Back</a>
+    </div>
+</form>
