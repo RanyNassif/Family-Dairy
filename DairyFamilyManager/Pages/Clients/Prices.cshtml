@@ -4,59 +4,80 @@
     ViewData["Title"] = "Client Prices";
 }
 
-<h2>Client Prices</h2>
+<div class="dfm-pagehead mb-3">
+    <div>
+        <h1 class="dfm-h1 mb-1" data-i18n="label.clientPricesTitle">Client Prices</h1>
+        <div class="dfm-muted" data-i18n="label.savePricesHelp">Update custom prices for this client.</div>
+    </div>
+</div>
 
 @if (Model.Client == null)
 {
-    <div>Client not found.</div>
-    <a href="/Clients">Back</a>
+    <div class="alert alert-warning d-flex align-items-start gap-2" role="alert">
+        <i class="bi bi-info-circle"></i>
+        <div data-i18n="label.clientNotFound">Client not found.</div>
+    </div>
+    <a class="btn btn-outline-secondary" href="/Clients"><i class="bi bi-arrow-left"></i><span data-i18n="action.back">Back</span></a>
     return;
 }
 
-<p>
-    <b>Client:</b> @Model.Client.NameEn / @Model.Client.NameAr
-</p>
+<div class="dfm-card p-3 mb-3">
+    <div class="fw-semibold">
+        <span data-i18n="label.client">Client</span>:
+        <span>@Model.Client.NameEn / @Model.Client.NameAr</span>
+    </div>
+</div>
 
 @if (!string.IsNullOrWhiteSpace(Model.Message))
 {
-    <div style="color:green">@Model.Message</div>
+    <div class="alert alert-success d-flex align-items-start gap-2" role="alert">
+        <i class="bi bi-check-circle"></i>
+        <div>@Model.Message</div>
+    </div>
 }
 
 @if (!string.IsNullOrWhiteSpace(Model.Error))
 {
-    <div style="color:red">@Model.Error</div>
+    <div class="alert alert-danger d-flex align-items-start gap-2" role="alert">
+        <i class="bi bi-exclamation-triangle"></i>
+        <div>@Model.Error</div>
+    </div>
 }
 
-<form method="post">
-    <input type="hidden" name="ClientId" value="@Model.Client.Id" />
+<div class="dfm-card p-0">
+    <form method="post">
+        <input type="hidden" name="ClientId" value="@Model.Client.Id" />
 
-    <table border="1" cellpadding="6" cellspacing="0">
-        <thead>
-            <tr>
-                <th>Product (EN)</th>
-                <th>Product (AR)</th>
-                <th>Base Price</th>
-                <th>Custom Price (leave empty to use base)</th>
-            </tr>
-        </thead>
-        <tbody>
-            @for (int i = 0; i < Model.Rows.Count; i++)
-            {
-                <tr>
-                    <td>@Model.Rows[i].ProductNameEn</td>
-                    <td>@Model.Rows[i].ProductNameAr</td>
-                    <td>@Model.Rows[i].BasePrice</td>
-                    <td>
-                        <input type="hidden" name="Rows[@i].ProductId" value="@Model.Rows[i].ProductId" />
-                        <input name="Rows[@i].CustomPriceText" value="@Model.Rows[i].CustomPriceText" />
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0 dfm-table">
+                <thead>
+                    <tr>
+                        <th data-i18n="label.productEn">Product (EN)</th>
+                        <th data-i18n="label.productAr">Product (AR)</th>
+                        <th data-i18n="label.basePriceShort">Base Price</th>
+                        <th data-i18n="label.customPrice">Custom Price (leave empty to use base)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @for (int i = 0; i < Model.Rows.Count; i++)
+                    {
+                        <tr>
+                            <td>@Model.Rows[i].ProductNameEn</td>
+                            <td>@Model.Rows[i].ProductNameAr</td>
+                            <td>@Model.Rows[i].BasePrice</td>
+                            <td>
+                                <input type="hidden" name="Rows[@i].ProductId" value="@Model.Rows[i].ProductId" />
+                                <input class="form-control" name="Rows[@i].CustomPriceText" value="@Model.Rows[i].CustomPriceText" />
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
 
-    <div style="margin-top:15px;">
-        <button type="submit">Save Prices</button>
-        <a href="/Clients">Back</a>
-    </div>
-</form>
+        <div class="d-flex justify-content-end gap-2 p-3 border-top">
+            <a class="btn btn-outline-secondary" href="/Clients"><i class="bi bi-arrow-left"></i><span data-i18n="action.back">Back</span></a>
+            <button class="btn btn-primary" type="submit"><i class="bi bi-check2"></i><span data-i18n="action.savePrices">Save Prices</span></button>
+        </div>
+    </form>
+</div>

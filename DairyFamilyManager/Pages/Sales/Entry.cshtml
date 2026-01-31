@@ -7,8 +7,8 @@
 <div class="dfm-pagehead mb-3">
     <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
         <div>
-            <h1 class="dfm-h1 mb-1">Daily Sales Entry</h1>
-            <div class="dfm-muted">Pick a date and client, then add sold products and prices.</div>
+            <h1 class="dfm-h1 mb-1" data-i18n="label.quickDailyEntry">Daily Sales Entry</h1>
+            <div class="dfm-muted" data-i18n="label.dailyEntrySubtitle">Pick a date and client, then add sold products and prices.</div>
         </div>
     </div>
 </div>
@@ -32,14 +32,14 @@
 <div class="dfm-card p-3 mb-3">
     <form method="get" class="row g-3 align-items-end dfm-form">
         <div class="col-12 col-md-4">
-            <label class="form-label">Date</label>
+            <label class="form-label" data-i18n="label.date">Date</label>
             <input class="form-control" type="date" name="date" value="@Model.DateString" />
         </div>
 
         <div class="col-12 col-md-6">
-            <label class="form-label">Client</label>
+            <label class="form-label" data-i18n="label.client">Client</label>
             <select class="form-select" name="clientId">
-                <option value="">-- Select client --</option>
+                <option value="" data-i18n="label.selectClient">-- Select client --</option>
                 @foreach (var c in Model.ClientOptions)
                 {
                     <option value="@c.Id" selected="@(Model.ClientId == c.Id)">@c.NameEn</option>
@@ -48,7 +48,7 @@
         </div>
 
         <div class="col-12 col-md-2 d-grid">
-            <button class="btn btn-primary dfm-btn-lg" type="submit"><i class="bi bi-arrow-repeat"></i><span>Load</span></button>
+            <button class="btn btn-primary dfm-btn-lg" type="submit"><i class="bi bi-arrow-repeat"></i><span data-i18n="action.load">Load</span></button>
         </div>
     </form>
 </div>
@@ -58,13 +58,13 @@
     <div class="row g-3 mb-3">
         <div class="col-12 col-lg-4">
             <div class="dfm-kpi">
-                <div class="label">Total Sales</div>
+                <div class="label" data-i18n="label.totalSales">Total Sales</div>
                 <div class="value">@Model.TotalSales</div>
             </div>
         </div>
         <div class="col-12 col-lg-4">
             <div class="dfm-kpi">
-                <div class="label">Factory Profit</div>
+                <div class="label" data-i18n="label.factoryProfit">Factory Profit</div>
                 <div class="value">@Model.TotalFactoryProfit</div>
             </div>
         </div>
@@ -72,7 +72,7 @@
         {
             <div class="col-12 col-lg-4">
                 <div class="dfm-kpi">
-                    <div class="label">Distributor Profit</div>
+                    <div class="label" data-i18n="label.distributorProfit">Distributor Profit</div>
                     <div class="value">@Model.TotalDistributorProfit</div>
                 </div>
             </div>
@@ -82,8 +82,8 @@
     <div class="dfm-card p-0">
         <div class="d-flex align-items-center justify-content-between px-3 py-3 border-bottom flex-wrap gap-2">
             <div>
-                <div class="fw-bold">Lines</div>
-                <div class="dfm-muted" style="font-size:13px;">Add the products sold for the selected client.</div>
+                <div class="fw-bold" data-i18n="label.lines">Lines</div>
+                <div class="dfm-muted" style="font-size:13px;" data-i18n="label.linesSubtitle">Add the products sold for the selected client.</div>
             </div>
         </div>
 
@@ -97,10 +97,10 @@
                 <table class="table table-hover align-middle mb-0 dfm-table">
                     <thead>
                         <tr>
-                            <th style="min-width:260px;">Product</th>
-                            <th style="width:140px;">Qty</th>
-                            <th style="width:180px;">Unit Price</th>
-                            <th style="width:220px;" class="text-center">Save price as default</th>
+                            <th style="min-width:260px;" data-i18n="label.product">Product</th>
+                            <th style="width:140px;" data-i18n="label.qty">Qty</th>
+                            <th style="width:180px;" data-i18n="label.unitPrice">Unit Price</th>
+                            <th style="width:220px;" class="text-center" data-i18n="label.saveDefaultPrice">Save price as default</th>
                             <th style="width:110px;" class="text-end"></th>
                         </tr>
                     </thead>
@@ -110,7 +110,7 @@
                             <tr>
                                 <td>
                                     <select class="form-select" name="Lines[@i].ProductId">
-                                        <option value="">-- Select product --</option>
+                                        <option value="" data-i18n="label.selectProduct">-- Select product --</option>
                                         @foreach (var p in Model.ProductOptions)
                                         {
                                             <option value="@p.Id" selected="@(Model.Lines[i].ProductId == p.Id)">@p.NameEn</option>
@@ -126,11 +126,11 @@
                                 <td class="text-center">
                                     <div class="form-check d-inline-flex align-items-center gap-2">
                                         <input class="form-check-input" type="checkbox" name="Lines[@i].SaveAsDefault" checked="@(Model.Lines[i].SaveAsDefault)" />
-                                        <label class="form-check-label dfm-muted">Remember</label>
+                                        <label class="form-check-label dfm-muted" data-i18n="label.remember">Remember</label>
                                     </div>
                                 </td>
                                 <td class="text-end">
-                                    <button class="btn btn-sm btn-outline-danger" type="submit" name="removeIndex" value="@i"><i class="bi bi-trash"></i><span>Remove</span></button>
+                                    <button class="btn btn-sm btn-outline-danger" type="submit" name="removeIndex" value="@i"><i class="bi bi-trash"></i><span data-i18n="action.remove">Remove</span></button>
                                 </td>
                             </tr>
                         }
@@ -140,12 +140,12 @@
 
             <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mt-3">
                 <div class="dfm-muted" style="font-size:13px;">
-                    Tip: use “Save price as default” to store client-specific default prices.
+                    <span data-i18n="label.tipSavePrice">Tip: use “Save price as default” to store client-specific default prices.</span>
                 </div>
 
                 <div class="d-flex gap-2">
-                    <button class="btn btn-outline-secondary" type="submit" name="action" value="add"><i class="bi bi-plus"></i><span>Add line</span></button>
-                    <button class="btn btn-primary" type="submit" name="action" value="save"><i class="bi bi-check2"></i><span>Save</span></button>
+                    <button class="btn btn-outline-secondary" type="submit" name="action" value="add"><i class="bi bi-plus"></i><span data-i18n="action.addLine">Add line</span></button>
+                    <button class="btn btn-primary" type="submit" name="action" value="save"><i class="bi bi-check2"></i><span data-i18n="action.save">Save</span></button>
                 </div>
             </div>
         </form>

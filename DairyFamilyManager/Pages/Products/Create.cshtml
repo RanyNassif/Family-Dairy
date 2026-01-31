@@ -7,8 +7,8 @@
 
 <div class="dfm-pagehead mb-3">
     <div>
-        <h1 class="dfm-h1 mb-1">Add Product</h1>
-        <div class="dfm-muted">Define product names, base price, and profit rules.</div>
+        <h1 class="dfm-h1 mb-1" data-i18n="action.addProduct">Add Product</h1>
+        <div class="dfm-muted" data-i18n="label.productsCreateSubtitle">Define product names, base price, and profit rules.</div>
     </div>
 </div>
 
@@ -24,71 +24,71 @@
     <form method="post" class="dfm-form">
         <div class="row g-3">
             <div class="col-12 col-md-6">
-                <label class="form-label">Name (EN)</label>
+                <label class="form-label" data-i18n="label.nameEn">Name (EN)</label>
                 <input class="form-control" name="NameEn" value="@Model.NameEn" />
             </div>
 
             <div class="col-12 col-md-6">
-                <label class="form-label">Name (AR)</label>
+                <label class="form-label" data-i18n="label.nameAr">Name (AR)</label>
                 <input class="form-control" name="NameAr" value="@Model.NameAr" />
             </div>
 
             <div class="col-12 col-md-6">
-                <label class="form-label">Label (EN) (optional)</label>
+                <label class="form-label" data-i18n="label.labelEn">Label (EN) (optional)</label>
                 <input class="form-control" name="LabelEn" value="@Model.LabelEn" />
             </div>
 
             <div class="col-12 col-md-6">
-                <label class="form-label">Label (AR) (optional)</label>
+                <label class="form-label" data-i18n="label.labelAr">Label (AR) (optional)</label>
                 <input class="form-control" name="LabelAr" value="@Model.LabelAr" />
             </div>
 
             <div class="col-12 col-md-4">
-                <label class="form-label">Base Price</label>
+                <label class="form-label" data-i18n="label.basePrice">Base Price</label>
                 <input class="form-control" name="BasePrice" value="@Model.BasePrice" />
             </div>
 
             <div class="col-12"><hr class="my-2" /></div>
 
             <div class="col-12 col-md-4">
-                <label class="form-label">Factory Profit Type</label>
+                <label class="form-label" data-i18n="label.factoryProfitType">Factory Profit Type</label>
                 <select class="form-select" name="FactoryProfitType">
-                    <option value="Fixed" selected="@(Model.FactoryProfitType == ProfitType.Fixed)">Fixed</option>
-                    <option value="Percent" selected="@(Model.FactoryProfitType == ProfitType.Percent)">Percent</option>
+                    <option value="Fixed" selected="@(Model.FactoryProfitType == ProfitType.Fixed)" data-i18n="label.factoryProfitTypeFixed">Fixed</option>
+                    <option value="Percent" selected="@(Model.FactoryProfitType == ProfitType.Percent)" data-i18n="label.factoryProfitTypePercent">Percent</option>
                 </select>
             </div>
 
             <div class="col-12 col-md-4">
-                <label class="form-label">Factory Profit Value</label>
+                <label class="form-label" data-i18n="label.factoryProfitValue">Factory Profit Value</label>
                 <input class="form-control" name="FactoryProfitValue" value="@Model.FactoryProfitValue" />
             </div>
 
             <div class="col-12"><hr class="my-2" /></div>
 
             <div class="col-12 col-md-4">
-                <label class="form-label">Distributor Profit Type</label>
+                <label class="form-label" data-i18n="label.distributorProfitType">Distributor Profit Type</label>
                 <select class="form-select" name="DistributorProfitType">
-                    <option value="Fixed" selected="@(Model.DistributorProfitType == ProfitType.Fixed)">Fixed</option>
-                    <option value="Percent" selected="@(Model.DistributorProfitType == ProfitType.Percent)">Percent</option>
+                    <option value="Fixed" selected="@(Model.DistributorProfitType == ProfitType.Fixed)" data-i18n="label.factoryProfitTypeFixed">Fixed</option>
+                    <option value="Percent" selected="@(Model.DistributorProfitType == ProfitType.Percent)" data-i18n="label.factoryProfitTypePercent">Percent</option>
                 </select>
             </div>
 
             <div class="col-12 col-md-4">
-                <label class="form-label">Distributor Profit Value</label>
+                <label class="form-label" data-i18n="label.distributorProfitValue">Distributor Profit Value</label>
                 <input class="form-control" name="DistributorProfitValue" value="@Model.DistributorProfitValue" />
             </div>
 
             <div class="col-12">
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" name="IsActive" checked="@(Model.IsActive)" id="IsActive" />
-                    <label class="form-check-label" for="IsActive">Active</label>
+                    <label class="form-check-label" for="IsActive" data-i18n="label.active">Active</label>
                 </div>
             </div>
         </div>
 
         <div class="d-flex justify-content-end gap-2 mt-4">
-            <a class="btn btn-outline-secondary" href="/Products"><i class="bi bi-x"></i><span>Cancel</span></a>
-            <button class="btn btn-primary" type="submit"><i class="bi bi-check2"></i><span>Save</span></button>
+            <a class="btn btn-outline-secondary" href="/Products"><i class="bi bi-x"></i><span data-i18n="action.cancel">Cancel</span></a>
+            <button class="btn btn-primary" type="submit"><i class="bi bi-check2"></i><span data-i18n="action.save">Save</span></button>
         </div>
     </form>
 </div>

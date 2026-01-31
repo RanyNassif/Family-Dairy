@@ -7,16 +7,16 @@
 <div class="dfm-pagehead mb-3">
     <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
         <div>
-            <h1 class="dfm-h1 mb-1">Products</h1>
-            <div class="dfm-muted">Define your products, base prices, and profit rules.</div>
+            <h1 class="dfm-h1 mb-1" data-i18n="nav.products">Products</h1>
+            <div class="dfm-muted" data-i18n="label.productsSubtitle">Define your products, base prices, and profit rules.</div>
         </div>
 
         <div class="d-flex align-items-center gap-2">
             <div class="dfm-search">
                 <i class="bi bi-search"></i>
-                <input class="form-control" id="dfmProductSearch" placeholder="Search product..." />
+                <input class="form-control" id="dfmProductSearch" data-i18n-placeholder="action.searchProduct" placeholder="Search product..." />
             </div>
-            <a class="btn btn-primary" href="/Products/Create"><i class="bi bi-plus-circle"></i><span>Add Product</span></a>
+            <a class="btn btn-primary" href="/Products/Create"><i class="bi bi-plus-circle"></i><span data-i18n="action.addProduct">Add Product</span></a>
         </div>
     </div>
 </div>
@@ -26,13 +26,13 @@
         <table class="table table-hover align-middle mb-0 dfm-table" id="dfmProductsTable">
             <thead>
                 <tr>
-                    <th>EN</th>
-                    <th>AR</th>
-                    <th class="text-end">Base Price</th>
-                    <th>Factory Profit</th>
-                    <th>Distributor Profit</th>
-                    <th>Active</th>
-                    <th class="text-end">Actions</th>
+                    <th data-i18n="label.productEn">EN</th>
+                    <th data-i18n="label.productAr">AR</th>
+                    <th class="text-end" data-i18n="label.basePriceShort">Base Price</th>
+                    <th data-i18n="label.factoryProfit">Factory Profit</th>
+                    <th data-i18n="label.distributorProfit">Distributor Profit</th>
+                    <th data-i18n="label.active">Active</th>
+                    <th class="text-end" data-i18n="label.actions">Actions</th>
                 </tr>
             </thead>
             <tbody>
@@ -47,15 +47,15 @@
                         <td>
                             @if (p.IsActive)
                             {
-                                <span class="badge text-bg-success">Active</span>
+                                <span class="badge text-bg-success" data-i18n="label.active">Active</span>
                             }
                             else
                             {
-                                <span class="badge text-bg-light">Inactive</span>
+                                <span class="badge text-bg-light" data-i18n="label.inactive">Inactive</span>
                             }
                         </td>
                         <td class="text-end">
-                            <a class="btn btn-sm btn-outline-secondary" href="/Products/Edit?id=@p.Id"><i class="bi bi-pencil"></i><span>Edit</span></a>
+                            <a class="btn btn-sm btn-outline-secondary" href="/Products/Edit?id=@p.Id"><i class="bi bi-pencil"></i><span data-i18n="action.edit">Edit</span></a>
                         </td>
                     </tr>
                 }

@@ -28,8 +28,8 @@
         <div class="dfm-auth-brand">
             <div class="dfm-logo dfm-logo-lg">DF</div>
             <div class="dfm-auth-brand-text">
-                <div class="dfm-auth-title">Dairy Family Manager</div>
-                <div class="dfm-auth-subtitle">Daily sales • profits • costs</div>
+                <div class="dfm-auth-title" data-i18n="app.name">Dairy Family Manager</div>
+                <div class="dfm-auth-subtitle" data-i18n="app.tagline">Daily sales • profits • costs</div>
             </div>
         </div>
 
@@ -37,10 +37,11 @@
             @RenderBody()
         </div>
 
-        <div class="dfm-auth-footer">© @DateTime.Today.Year Dairy Family Manager</div>
+        <div class="dfm-auth-footer" data-i18n="app.footer">© @DateTime.Today.Year Dairy Family Manager</div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/dfm-i18n.js"></script>
     <script>
         (function () {
             const lang = localStorage.getItem('dfmLang') || 'en';

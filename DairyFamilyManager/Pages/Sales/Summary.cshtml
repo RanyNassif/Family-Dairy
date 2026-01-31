@@ -7,8 +7,8 @@
 <div class="dfm-pagehead mb-3">
     <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
         <div>
-            <h1 class="dfm-h1 mb-1">Daily Summary</h1>
-            <div class="dfm-muted">Totals and breakdowns for the selected date.</div>
+            <h1 class="dfm-h1 mb-1" data-i18n="nav.dailySummary">Daily Summary</h1>
+            <div class="dfm-muted" data-i18n="label.dailySummarySubtitle">Totals and breakdowns for the selected date.</div>
         </div>
     </div>
 </div>
@@ -24,12 +24,12 @@
 <div class="dfm-card p-3 mb-3">
     <form method="get" class="row g-3 align-items-end dfm-form">
         <div class="col-12 col-md-4">
-            <label class="form-label">Date</label>
+            <label class="form-label" data-i18n="label.date">Date</label>
             <input class="form-control" type="date" name="DateString" value="@Model.DateString" />
         </div>
 
         <div class="col-12 col-md-2 d-grid">
-            <button class="btn btn-primary dfm-btn-lg" type="submit"><i class="bi bi-arrow-repeat"></i><span>Load</span></button>
+            <button class="btn btn-primary dfm-btn-lg" type="submit"><i class="bi bi-arrow-repeat"></i><span data-i18n="action.load">Load</span></button>
         </div>
     </form>
 </div>
@@ -37,25 +37,25 @@
 <div class="row g-3 mb-3">
     <div class="col-12 col-lg-3">
         <div class="dfm-kpi">
-            <div class="label">Total Sales</div>
+            <div class="label" data-i18n="label.totalSales">Total Sales</div>
             <div class="value">@Model.TotalSales</div>
         </div>
     </div>
     <div class="col-12 col-lg-3">
         <div class="dfm-kpi">
-            <div class="label">Factory Profit</div>
+            <div class="label" data-i18n="label.factoryProfit">Factory Profit</div>
             <div class="value">@Model.TotalFactoryProfit</div>
         </div>
     </div>
     <div class="col-12 col-lg-3">
         <div class="dfm-kpi">
-            <div class="label">Distributor Profit</div>
+            <div class="label" data-i18n="label.distributorProfit">Distributor Profit</div>
             <div class="value">@Model.TotalDistributorProfit</div>
         </div>
     </div>
     <div class="col-12 col-lg-3">
         <div class="dfm-kpi">
-            <div class="label">Distributor Net (after benzine)</div>
+            <div class="label" data-i18n="label.distributorNetAfterBenzine">Distributor Net (after benzine)</div>
             <div class="value">@Model.DistributorNet</div>
         </div>
     </div>
@@ -67,13 +67,13 @@
         <input type="hidden" name="DateString" value="@Model.DateString" />
 
         <div class="col-12 col-md-4">
-            <label class="form-label">Benzine (Distributor daily expense)</label>
+            <label class="form-label" data-i18n="label.benzine">Benzine (Distributor daily expense)</label>
             <input class="form-control" name="BenzineText" value="@Model.BenzineText" />
-            <div class="form-text">This will be used to compute distributor net for the day.</div>
+            <div class="form-text" data-i18n="label.saveBenzineHelp">This will be used to compute distributor net for the day.</div>
         </div>
 
         <div class="col-12 col-md-2 d-grid">
-            <button class="btn btn-outline-primary dfm-btn-lg" type="submit"><i class="bi bi-save"></i><span>Save</span></button>
+            <button class="btn btn-outline-primary dfm-btn-lg" type="submit"><i class="bi bi-save"></i><span data-i18n="action.save">Save</span></button>
         </div>
     </form>
 </div>
@@ -82,19 +82,19 @@
     <div class="col-12 col-xl-6">
         <div class="dfm-card p-0">
             <div class="px-3 py-3 border-bottom">
-                <div class="fw-bold">By Client</div>
-                <div class="dfm-muted" style="font-size:13px;">Sales and profits per client.</div>
+                <div class="fw-bold" data-i18n="label.byClient">By Client</div>
+                <div class="dfm-muted" style="font-size:13px;" data-i18n="label.byClientSubtitle">Sales and profits per client.</div>
             </div>
             <div class="table-responsive">
                 <table class="table table-hover align-middle mb-0 dfm-table">
                     <thead>
                         <tr>
-                            <th>Client (EN)</th>
-                            <th>Client (AR)</th>
-                            <th>Distributor</th>
-                            <th class="text-end">Sales</th>
-                            <th class="text-end">Factory Profit</th>
-                            <th class="text-end">Distributor Profit</th>
+                            <th data-i18n="label.clientEn">Client (EN)</th>
+                            <th data-i18n="label.clientAr">Client (AR)</th>
+                            <th data-i18n="label.distributor">Distributor</th>
+                            <th class="text-end" data-i18n="label.sales">Sales</th>
+                            <th class="text-end" data-i18n="label.factoryProfit">Factory Profit</th>
+                            <th class="text-end" data-i18n="label.distributorProfit">Distributor Profit</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -106,11 +106,11 @@
                                 <td>
                                     @if (r.UsesDistributor)
                                     {
-                                        <span class="badge text-bg-primary">Yes</span>
+                                        <span class="badge text-bg-primary" data-i18n="label.yes">Yes</span>
                                     }
                                     else
                                     {
-                                        <span class="badge text-bg-secondary">No</span>
+                                        <span class="badge text-bg-secondary" data-i18n="label.no">No</span>
                                     }
                                 </td>
                                 <td class="text-end">@r.SalesTotal</td>
@@ -127,19 +127,19 @@
     <div class="col-12 col-xl-6">
         <div class="dfm-card p-0">
             <div class="px-3 py-3 border-bottom">
-                <div class="fw-bold">By Product</div>
-                <div class="dfm-muted" style="font-size:13px;">Quantity, sales, and profits per product.</div>
+                <div class="fw-bold" data-i18n="label.byProduct">By Product</div>
+                <div class="dfm-muted" style="font-size:13px;" data-i18n="label.byProductSubtitle">Quantity, sales, and profits per product.</div>
             </div>
             <div class="table-responsive">
                 <table class="table table-hover align-middle mb-0 dfm-table">
                     <thead>
                         <tr>
-                            <th>Product (EN)</th>
-                            <th>Product (AR)</th>
-                            <th class="text-end">Qty</th>
-                            <th class="text-end">Sales</th>
-                            <th class="text-end">Factory Profit</th>
-                            <th class="text-end">Distributor Profit</th>
+                            <th data-i18n="label.productEn">Product (EN)</th>
+                            <th data-i18n="label.productAr">Product (AR)</th>
+                            <th class="text-end" data-i18n="label.qty">Qty</th>
+                            <th class="text-end" data-i18n="label.sales">Sales</th>
+                            <th class="text-end" data-i18n="label.factoryProfit">Factory Profit</th>
+                            <th class="text-end" data-i18n="label.distributorProfit">Distributor Profit</th>
                         </tr>
                     </thead>
                     <tbody>

@@ -7,8 +7,8 @@
 <div class="dfm-pagehead mb-3">
     <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
         <div>
-            <h1 class="dfm-h1 mb-1">Monthly Dashboard</h1>
-            <div class="dfm-muted">KPIs, charts, and top products for the selected month.</div>
+            <h1 class="dfm-h1 mb-1" data-i18n="nav.monthlyDashboard">Monthly Dashboard</h1>
+            <div class="dfm-muted" data-i18n="label.monthlyDashboardSubtitle">KPIs, charts, and top products for the selected month.</div>
         </div>
     </div>
 </div>
@@ -24,18 +24,18 @@
 <div class="dfm-card p-3 mb-3">
     <form method="get" class="row g-3 align-items-end dfm-form">
         <div class="col-12 col-md-3">
-            <label class="form-label">Year</label>
+            <label class="form-label" data-i18n="label.year">Year</label>
             <input class="form-control" name="year" value="@Model.Year" />
         </div>
 
         <div class="col-12 col-md-3">
-            <label class="form-label">Month</label>
+            <label class="form-label" data-i18n="label.month">Month</label>
             <input class="form-control" name="month" value="@Model.Month" />
-            <div class="form-text">1 to 12</div>
+            <div class="form-text" data-i18n="label.monthHelp">1 to 12</div>
         </div>
 
         <div class="col-12 col-md-2 d-grid">
-            <button class="btn btn-primary dfm-btn-lg" type="submit"><i class="bi bi-arrow-repeat"></i><span>Load</span></button>
+            <button class="btn btn-primary dfm-btn-lg" type="submit"><i class="bi bi-arrow-repeat"></i><span data-i18n="action.load">Load</span></button>
         </div>
     </form>
 </div>
@@ -43,19 +43,19 @@
 <div class="row g-3 mb-3">
     <div class="col-12 col-lg-4">
         <div class="dfm-kpi">
-            <div class="label">Total Sales</div>
+            <div class="label" data-i18n="label.totalSales">Total Sales</div>
             <div class="value">@Model.TotalSales</div>
         </div>
     </div>
     <div class="col-12 col-lg-4">
         <div class="dfm-kpi">
-            <div class="label">Factory Net After Costs</div>
+            <div class="label" data-i18n="label.factoryNetAfterCosts">Factory Net After Costs</div>
             <div class="value">@Model.FactoryNetAfterCosts</div>
         </div>
     </div>
     <div class="col-12 col-lg-4">
         <div class="dfm-kpi">
-            <div class="label">Distributor Net</div>
+            <div class="label" data-i18n="label.distributorNet">Distributor Net</div>
             <div class="value">@Model.DistributorNet</div>
         </div>
     </div>
@@ -64,28 +64,28 @@
 <div class="row g-3 mb-3">
     <div class="col-12 col-xl-7">
         <div class="dfm-card p-3">
-            <div class="fw-bold mb-2">Sales per day</div>
+            <div class="fw-bold mb-2" data-i18n="label.salesPerDay">Sales per day</div>
             <canvas id="salesChart" height="90"></canvas>
         </div>
     </div>
 
     <div class="col-12 col-xl-5">
         <div class="dfm-card p-3">
-            <div class="fw-bold mb-2">Top products by sales</div>
+            <div class="fw-bold mb-2" data-i18n="label.topProductsBySales">Top products by sales</div>
             <canvas id="topProductsChart" height="140"></canvas>
         </div>
     </div>
 
     <div class="col-12 col-xl-6">
         <div class="dfm-card p-3">
-            <div class="fw-bold mb-2">Factory profit per day</div>
+            <div class="fw-bold mb-2" data-i18n="label.factoryProfitPerDay">Factory profit per day</div>
             <canvas id="factoryChart" height="90"></canvas>
         </div>
     </div>
 
     <div class="col-12 col-xl-6">
         <div class="dfm-card p-3">
-            <div class="fw-bold mb-2">Distributor net per day</div>
+            <div class="fw-bold mb-2" data-i18n="label.distributorNetPerDay">Distributor net per day</div>
             <canvas id="distNetChart" height="90"></canvas>
         </div>
     </div>
@@ -93,19 +93,19 @@
 
 <div class="dfm-card p-0">
     <div class="px-3 py-3 border-bottom">
-        <div class="fw-bold">Top Products (by Sales)</div>
-        <div class="dfm-muted" style="font-size:13px;">Ranked by total sales amount.</div>
+        <div class="fw-bold" data-i18n="label.topProductsBySalesTable">Top Products (by Sales)</div>
+        <div class="dfm-muted" style="font-size:13px;" data-i18n="label.rankBySales">Ranked by total sales amount.</div>
     </div>
     <div class="table-responsive">
         <table class="table table-hover align-middle mb-0 dfm-table">
     <thead>
         <tr>
-            <th>Product (EN)</th>
-            <th>Product (AR)</th>
-                    <th class="text-end">Qty</th>
-                    <th class="text-end">Sales</th>
-                    <th class="text-end">Factory Profit</th>
-                    <th class="text-end">Distributor Profit</th>
+            <th data-i18n="label.productEn">Product (EN)</th>
+            <th data-i18n="label.productAr">Product (AR)</th>
+                    <th class="text-end" data-i18n="label.qty">Qty</th>
+                    <th class="text-end" data-i18n="label.sales">Sales</th>
+                    <th class="text-end" data-i18n="label.factoryProfit">Factory Profit</th>
+                    <th class="text-end" data-i18n="label.distributorProfit">Distributor Profit</th>
         </tr>
     </thead>
     <tbody>
@@ -136,27 +136,29 @@
     const topLabels = @Html.Raw(Model.TopProductLabelsJson);
     const topSales = @Html.Raw(Model.TopProductSalesJson);
 
+    const t = window.dfmTranslate || ((key) => key);
+
     new Chart(document.getElementById('salesChart'), {
         type: 'line',
-        data: { labels: dailyLabels, datasets: [{ label: 'Sales', data: dailySales }] },
+        data: { labels: dailyLabels, datasets: [{ label: t('label.sales'), data: dailySales }] },
         options: { responsive: true }
     });
 
     new Chart(document.getElementById('factoryChart'), {
         type: 'line',
-        data: { labels: dailyLabels, datasets: [{ label: 'Factory Profit', data: dailyFactory }] },
+        data: { labels: dailyLabels, datasets: [{ label: t('label.factoryProfit'), data: dailyFactory }] },
         options: { responsive: true }
     });
 
     new Chart(document.getElementById('distNetChart'), {
         type: 'line',
-        data: { labels: dailyLabels, datasets: [{ label: 'Distributor Net', data: dailyDistNet }] },
+        data: { labels: dailyLabels, datasets: [{ label: t('label.distributorNet'), data: dailyDistNet }] },
         options: { responsive: true }
     });
 
     new Chart(document.getElementById('topProductsChart'), {
         type: 'bar',
-        data: { labels: topLabels, datasets: [{ label: 'Sales', data: topSales }] },
+        data: { labels: topLabels, datasets: [{ label: t('label.sales'), data: topSales }] },
         options: { responsive: true, indexAxis: 'y' }
     });
 </script>
