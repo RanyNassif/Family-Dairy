@@ -39,19 +39,38 @@ body.dfm-rtl {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 14px;
+    padding: 0 20px;
+    gap: 16px;
 }
 
 .dfm-topbar-left {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
+    flex: 1;
+    min-width: 0;
 }
 
 .dfm-brand {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.dfm-brand-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.dfm-topbar-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.dfm-topbar-right .btn {
+    white-space: nowrap;
 }
 
 .dfm-logo {
@@ -87,8 +106,10 @@ body.dfm-rtl {
 }
 
 .dfm-user {
-    text-align: right;
-    margin-right: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
 }
 
 .dfm-user-name {
@@ -220,16 +241,51 @@ body.dfm-rtl .dfm-brand {
     flex-direction: row-reverse;
 }
 
+body.dfm-rtl .dfm-brand-text {
+    align-items: flex-end;
+}
+
 body.dfm-rtl .dfm-shell {
     flex-direction: row-reverse;
 }
 
 body.dfm-rtl .dfm-user {
     text-align: right;
+    margin-left: 10px;
+    align-items: flex-end;
 }
 
 body.dfm-rtl .dfm-nav-item:hover {
     transform: translateX(-2px);
+}
+
+body.dfm-rtl .dfm-nav-item {
+    flex-direction: row-reverse;
+}
+
+body.dfm-rtl .dfm-nav-section {
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+body.dfm-rtl .dfm-tile {
+    flex-direction: row-reverse;
+}
+
+body.dfm-rtl .dfm-pagehead,
+body.dfm-rtl .dfm-card,
+body.dfm-rtl .dfm-form,
+body.dfm-rtl .dfm-table {
+    text-align: right;
+}
+
+body.dfm-rtl .form-control,
+body.dfm-rtl .form-select {
+    text-align: right;
+}
+
+body.dfm-rtl .dfm-table thead th {
+    text-align: right;
 }
 
 /* Page header */
@@ -436,14 +492,14 @@ body.dfm-rtl .dfm-nav-item:hover {
     .dfm-content {
         width: 100%;
     }
-}
+    
+    .dfm-rtl .dfm-sidebar {
+        left: auto;
+        right: 0;
+        transform: translateX(110%);
+    }
 
-.dfm-rtl .dfm-sidebar {
-    left: auto;
-    right: 0;
-    transform: translateX(110%);
-}
-
-.dfm-rtl .dfm-shell.sidebar-open .dfm-sidebar {
-    transform: translateX(0);
+    .dfm-rtl .dfm-shell.sidebar-open .dfm-sidebar {
+        transform: translateX(0);
+    }
 }

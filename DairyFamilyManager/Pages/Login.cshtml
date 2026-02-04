@@ -6,8 +6,8 @@
 }
 
 <div class="dfm-pagehead mb-3">
-    <h1 class="dfm-h1">Sign in</h1>
-    <div class="dfm-muted">Use your username and password to access the system.</div>
+    <h1 class="dfm-h1" data-i18n="label.signIn">Sign in</h1>
+    <div class="dfm-muted" data-i18n="label.signInHelp">Use your username and password to access the system.</div>
 </div>
 
 @if (!string.IsNullOrWhiteSpace(Model.Error))
@@ -22,17 +22,17 @@
     @Html.AntiForgeryToken()
 
     <div class="mb-3">
-        <label class="form-label">Username</label>
+        <label class="form-label" data-i18n="label.username">Username</label>
         <input class="form-control" name="Username" value="@Model.Username" autocomplete="username" />
     </div>
 
     <div class="mb-3">
-        <label class="form-label">Password</label>
+        <label class="form-label" data-i18n="label.password">Password</label>
         <input class="form-control" name="Password" type="password" autocomplete="current-password" />
     </div>
 
     <button type="submit" class="btn btn-primary w-100 dfm-btn-lg">
         <i class="bi bi-box-arrow-in-right"></i>
-        <span>Login</span>
+        <span data-i18n="action.login">Login</span>
     </button>
 </form>

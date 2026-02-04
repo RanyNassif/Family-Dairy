@@ -5,13 +5,13 @@
 <div class="dfm-pagehead mb-3">
     <div class="d-flex align-items-center justify-content-between flex-wrap gap-2">
         <div>
-            <h1 class="dfm-h1 mb-1">Welcome, @User.Identity?.Name</h1>
-            <div class="dfm-muted">Quick access to daily entry, summaries, and admin setup.</div>
+            <h1 class="dfm-h1 mb-1"><span data-i18n="label.welcome">Welcome,</span> @User.Identity?.Name</h1>
+            <div class="dfm-muted" data-i18n="label.homeSubtitle">Quick access to daily entry, summaries, and admin setup.</div>
         </div>
 
         <div class="d-flex align-items-center gap-2">
-            <a class="btn btn-primary" href="/Sales/Entry"><i class="bi bi-plus-circle"></i><span>New Daily Entry</span></a>
-            <a class="btn btn-outline-secondary" href="/Sales/Summary"><i class="bi bi-table"></i><span>View Summary</span></a>
+            <a class="btn btn-primary" href="/Sales/Entry"><i class="bi bi-plus-circle"></i><span data-i18n="action.newDailyEntry">New Daily Entry</span></a>
+            <a class="btn btn-outline-secondary" href="/Sales/Summary"><i class="bi bi-table"></i><span data-i18n="action.viewSummary">View Summary</span></a>
         </div>
     </div>
 </div>
@@ -21,8 +21,8 @@
         <a class="dfm-tile" href="/Sales/Entry">
             <div class="dfm-tile-icon"><i class="bi bi-pencil-square"></i></div>
             <div class="dfm-tile-body">
-                <div class="dfm-tile-title">Daily Sales Entry</div>
-                <div class="dfm-tile-sub">Add today’s sales lines for a client</div>
+                <div class="dfm-tile-title" data-i18n="label.quickDailyEntry">Daily Sales Entry</div>
+                <div class="dfm-tile-sub" data-i18n="label.quickDailyEntrySub">Add today’s sales lines for a client</div>
             </div>
             <div class="dfm-tile-chevron"><i class="bi bi-chevron-right"></i></div>
         </a>
@@ -32,8 +32,8 @@
         <a class="dfm-tile" href="/Sales/Summary">
             <div class="dfm-tile-icon"><i class="bi bi-bar-chart-line"></i></div>
             <div class="dfm-tile-body">
-                <div class="dfm-tile-title">Daily Summary</div>
-                <div class="dfm-tile-sub">Review totals, profits, and distributions</div>
+                <div class="dfm-tile-title" data-i18n="label.quickSummary">Daily Summary</div>
+                <div class="dfm-tile-sub" data-i18n="label.quickSummarySub">Review totals, profits, and distributions</div>
             </div>
             <div class="dfm-tile-chevron"><i class="bi bi-chevron-right"></i></div>
         </a>
@@ -45,8 +45,8 @@
             <a class="dfm-tile" href="/Reports/Monthly">
                 <div class="dfm-tile-icon"><i class="bi bi-speedometer2"></i></div>
                 <div class="dfm-tile-body">
-                    <div class="dfm-tile-title">Monthly Dashboard</div>
-                    <div class="dfm-tile-sub">Charts + top products + net results</div>
+                    <div class="dfm-tile-title" data-i18n="label.quickMonthlyDashboard">Monthly Dashboard</div>
+                    <div class="dfm-tile-sub" data-i18n="label.quickMonthlyDashboardSub">Charts + top products + net results</div>
                 </div>
                 <div class="dfm-tile-chevron"><i class="bi bi-chevron-right"></i></div>
             </a>
@@ -56,8 +56,8 @@
             <a class="dfm-tile" href="/Products">
                 <div class="dfm-tile-icon"><i class="bi bi-box-seam"></i></div>
                 <div class="dfm-tile-body">
-                    <div class="dfm-tile-title">Products</div>
-                    <div class="dfm-tile-sub">Manage pricing rules & profits</div>
+                    <div class="dfm-tile-title" data-i18n="label.quickProducts">Products</div>
+                    <div class="dfm-tile-sub" data-i18n="label.quickProductsSub">Manage pricing rules & profits</div>
                 </div>
                 <div class="dfm-tile-chevron"><i class="bi bi-chevron-right"></i></div>
             </a>
@@ -67,8 +67,8 @@
             <a class="dfm-tile" href="/Clients">
                 <div class="dfm-tile-icon"><i class="bi bi-people"></i></div>
                 <div class="dfm-tile-body">
-                    <div class="dfm-tile-title">Clients</div>
-                    <div class="dfm-tile-sub">Manage clients & default prices</div>
+                    <div class="dfm-tile-title" data-i18n="label.quickClients">Clients</div>
+                    <div class="dfm-tile-sub" data-i18n="label.quickClientsSub">Manage clients & default prices</div>
                 </div>
                 <div class="dfm-tile-chevron"><i class="bi bi-chevron-right"></i></div>
             </a>
@@ -78,8 +78,8 @@
             <a class="dfm-tile" href="/Costs/Monthly">
                 <div class="dfm-tile-icon"><i class="bi bi-receipt"></i></div>
                 <div class="dfm-tile-body">
-                    <div class="dfm-tile-title">Monthly Costs</div>
-                    <div class="dfm-tile-sub">Track expenses like benzine and others</div>
+                    <div class="dfm-tile-title" data-i18n="label.quickMonthlyCosts">Monthly Costs</div>
+                    <div class="dfm-tile-sub" data-i18n="label.quickMonthlyCostsSub">Track expenses like benzine and others</div>
                 </div>
                 <div class="dfm-tile-chevron"><i class="bi bi-chevron-right"></i></div>
             </a>

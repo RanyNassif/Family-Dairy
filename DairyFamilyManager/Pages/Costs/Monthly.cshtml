@@ -4,72 +4,89 @@
     ViewData["Title"] = "Monthly Costs";
 }
 
-<h2>Monthly Costs</h2>
+<div class="dfm-pagehead mb-3">
+    <div>
+        <h1 class="dfm-h1 mb-1" data-i18n="label.monthlyCostsTitle">Monthly Costs</h1>
+        <div class="dfm-muted" data-i18n="label.monthlyCostsSubtitle">Track monthly expenses by product.</div>
+    </div>
+</div>
 
 @if (!string.IsNullOrWhiteSpace(Model.Error))
 {
-    <div style="color:red">@Model.Error</div>
+    <div class="alert alert-danger d-flex align-items-start gap-2" role="alert">
+        <i class="bi bi-exclamation-triangle"></i>
+        <div>@Model.Error</div>
+    </div>
 }
 
 @if (!string.IsNullOrWhiteSpace(Model.Message))
 {
-    <div style="color:green">@Model.Message</div>
+    <div class="alert alert-success d-flex align-items-start gap-2" role="alert">
+        <i class="bi bi-check-circle"></i>
+        <div>@Model.Message</div>
+    </div>
 }
 
-<form method="get">
-    <label>Year</label><br />
-    <input name="year" value="@Model.Year" />
+<div class="dfm-card p-3 mb-3">
+    <form method="get" class="row g-3 align-items-end dfm-form">
+        <div class="col-12 col-md-3">
+            <label class="form-label" data-i18n="label.year">Year</label>
+            <input class="form-control" name="year" value="@Model.Year" />
+        </div>
 
-    <div style="margin-top:10px;">
-        <label>Month (1-12)</label><br />
-        <input name="month" value="@Model.Month" />
-    </div>
+        <div class="col-12 col-md-3">
+            <label class="form-label" data-i18n="label.monthRange">Month (1-12)</label>
+            <input class="form-control" name="month" value="@Model.Month" />
+        </div>
 
-    <div style="margin-top:10px;">
-        <button type="submit">Load</button>
-    </div>
-</form>
+        <div class="col-12 col-md-2 d-grid">
+            <button class="btn btn-primary dfm-btn-lg" type="submit"><i class="bi bi-arrow-repeat"></i><span data-i18n="action.load">Load</span></button>
+        </div>
+    </form>
+</div>
 
-<hr />
+<div class="dfm-card p-0">
+    <form method="post">
+        @Html.AntiForgeryToken()
 
-<form method="post">
-    @Html.AntiForgeryToken()
+        <input type="hidden" name="Year" value="@Model.Year" />
+        <input type="hidden" name="Month" value="@Model.Month" />
 
-    <input type="hidden" name="Year" value="@Model.Year" />
-    <input type="hidden" name="Month" value="@Model.Month" />
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0 dfm-table">
+                <thead>
+                    <tr>
+                        <th data-i18n="label.productEn">Product (EN)</th>
+                        <th data-i18n="label.productAr">Product (AR)</th>
+                        <th data-i18n="label.milk">Milk</th>
+                        <th data-i18n="label.workers">Workers</th>
+                        <th data-i18n="label.gas">Gas</th>
+                        <th data-i18n="label.other">Other</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @for (int i = 0; i < Model.Rows.Count; i++)
+                    {
+                        <tr>
+                            <td>@Model.Rows[i].ProductNameEn</td>
+                            <td>@Model.Rows[i].ProductNameAr</td>
 
-    <table border="1" cellpadding="6" cellspacing="0">
-        <thead>
-            <tr>
-                <th>Product (EN)</th>
-                <th>Product (AR)</th>
-                <th>Milk</th>
-                <th>Workers</th>
-                <th>Gas</th>
-                <th>Other</th>
-            </tr>
-        </thead>
-        <tbody>
-            @for (int i = 0; i < Model.Rows.Count; i++)
-            {
-                <tr>
-                    <td>@Model.Rows[i].ProductNameEn</td>
-                    <td>@Model.Rows[i].ProductNameAr</td>
+                            <td>
+                                <input type="hidden" name="Rows[@i].ProductId" value="@Model.Rows[i].ProductId" />
+                                <input class="form-control" name="Rows[@i].MilkCostText" value="@Model.Rows[i].MilkCostText" />
+                            </td>
 
-                    <td>
-                        <input type="hidden" name="Rows[@i].ProductId" value="@Model.Rows[i].ProductId" />
-                        <input name="Rows[@i].MilkCostText" value="@Model.Rows[i].MilkCostText" />
-                    </td>
+                            <td><input class="form-control" name="Rows[@i].WorkersCostText" value="@Model.Rows[i].WorkersCostText" /></td>
+                            <td><input class="form-control" name="Rows[@i].GasCostText" value="@Model.Rows[i].GasCostText" /></td>
+                            <td><input class="form-control" name="Rows[@i].OtherCostText" value="@Model.Rows[i].OtherCostText" /></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
 
-                    <td><input name="Rows[@i].WorkersCostText" value="@Model.Rows[i].WorkersCostText" /></td>
-                    <td><input name="Rows[@i].GasCostText" value="@Model.Rows[i].GasCostText" /></td>
-                    <td><input name="Rows[@i].OtherCostText" value="@Model.Rows[i].OtherCostText" /></td>
-                </tr>
-            }
-        </tbody>
-    </table>
-
-    <div style="margin-top:15px;">
-        <button type="submit">Save</button>
-    </div>
-</form>
+        <div class="d-flex justify-content-end gap-2 p-3 border-top">
+            <button class="btn btn-primary" type="submit"><i class="bi bi-check2"></i><span data-i18n="action.save">Save</span></button>
+        </div>
+    </form>
+</div>

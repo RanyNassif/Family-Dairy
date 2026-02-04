@@ -39,14 +39,14 @@
 
     <header class="dfm-topbar border-bottom">
         <div class="dfm-topbar-left">
-            <button class="btn btn-sm btn-light dfm-sidebar-toggle" type="button" onclick="dfmToggleSidebar()" aria-label="Toggle menu">
+            <button class="btn btn-sm btn-light dfm-sidebar-toggle" type="button" onclick="dfmToggleSidebar()" aria-label="Toggle menu" data-i18n-aria-label="label.toggleMenu">
                 <i class="bi bi-list"></i>
             </button>
             <div class="dfm-brand">
                 <div class="dfm-logo">DF</div>
                 <div class="dfm-brand-text">
-                    <div class="dfm-title">Dairy Family Manager</div>
-                    <div class="dfm-subtitle">Daily sales • profits • costs</div>
+                    <div class="dfm-title" data-i18n="app.name">Dairy Family Manager</div>
+                    <div class="dfm-subtitle" data-i18n="app.tagline">Daily sales • profits • costs</div>
                 </div>
             </div>
         </div>
@@ -56,10 +56,19 @@
             {
                 <div class="dfm-user">
                     <div class="dfm-user-name">@User.Identity.Name</div>
-                    <div class="dfm-user-role">@((User.IsInRole("Admin")) ? "Admin" : "Data Entry")</div>
+                    <div class="dfm-user-role">
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <span data-i18n="label.admin">Admin</span>
+                        }
+                        else
+                        {
+                            <span data-i18n="label.dataEntry">Data Entry</span>
+                        }
+                    </div>
                 </div>
 
-                <a class="btn btn-sm btn-outline-secondary" href="/Logout">Logout</a>
+                <a class="btn btn-sm btn-outline-secondary" href="/Logout" data-i18n="action.logout">Logout</a>
             }
         </div>
     </header>
@@ -68,24 +77,24 @@
         <div class="dfm-sidebar-backdrop" onclick="dfmToggleSidebar(false)"></div>
         <aside class="dfm-sidebar border-end" id="dfmSidebar">
             <div class="dfm-nav">
-                <a class="dfm-nav-item @(isActive("/Home") ? "active" : "")" href="/Home"><i class="bi bi-house"></i><span>Home</span></a>
-                <a class="dfm-nav-item @(isActive("/Sales/Entry") ? "active" : "")" href="/Sales/Entry"><i class="bi bi-pencil-square"></i><span>Daily Entry</span></a>
-                <a class="dfm-nav-item @(isActive("/Sales/Summary") ? "active" : "")" href="/Sales/Summary"><i class="bi bi-table"></i><span>Daily Summary</span></a>
+                <a class="dfm-nav-item @(isActive("/Home") ? "active" : "")" href="/Home"><i class="bi bi-house"></i><span data-i18n="nav.home">Home</span></a>
+                <a class="dfm-nav-item @(isActive("/Sales/Entry") ? "active" : "")" href="/Sales/Entry"><i class="bi bi-pencil-square"></i><span data-i18n="nav.dailyEntry">Daily Entry</span></a>
+                <a class="dfm-nav-item @(isActive("/Sales/Summary") ? "active" : "")" href="/Sales/Summary"><i class="bi bi-table"></i><span data-i18n="nav.dailySummary">Daily Summary</span></a>
 
                 @if (User.IsInRole("Admin"))
                 {
-                    <div class="dfm-nav-section">Setup</div>
-                    <a class="dfm-nav-item @(isActive("/Products") ? "active" : "")" href="/Products"><i class="bi bi-box-seam"></i><span>Products</span></a>
-                    <a class="dfm-nav-item @(isActive("/Clients") ? "active" : "")" href="/Clients"><i class="bi bi-people"></i><span>Clients</span></a>
-                    <a class="dfm-nav-item @(isActive("/Costs/Monthly") ? "active" : "")" href="/Costs/Monthly"><i class="bi bi-receipt"></i><span>Monthly Costs</span></a>
+                    <div class="dfm-nav-section" data-i18n="nav.setup">Setup</div>
+                    <a class="dfm-nav-item @(isActive("/Products") ? "active" : "")" href="/Products"><i class="bi bi-box-seam"></i><span data-i18n="nav.products">Products</span></a>
+                    <a class="dfm-nav-item @(isActive("/Clients") ? "active" : "")" href="/Clients"><i class="bi bi-people"></i><span data-i18n="nav.clients">Clients</span></a>
+                    <a class="dfm-nav-item @(isActive("/Costs/Monthly") ? "active" : "")" href="/Costs/Monthly"><i class="bi bi-receipt"></i><span data-i18n="nav.monthlyCosts">Monthly Costs</span></a>
 
-                    <div class="dfm-nav-section">Reports</div>
-                    <a class="dfm-nav-item @(isActive("/Reports/Monthly") ? "active" : "")" href="/Reports/Monthly"><i class="bi bi-bar-chart"></i><span>Monthly Dashboard</span></a>
+                    <div class="dfm-nav-section" data-i18n="nav.reports">Reports</div>
+                    <a class="dfm-nav-item @(isActive("/Reports/Monthly") ? "active" : "")" href="/Reports/Monthly"><i class="bi bi-bar-chart"></i><span data-i18n="nav.monthlyDashboard">Monthly Dashboard</span></a>
                 }
             </div>
 
             <div class="dfm-sidebar-footer">
-                <button class="btn btn-sm btn-light w-100" type="button" onclick="dfmToggleLang()">English / عربي</button>
+                <button class="btn btn-sm btn-light w-100" type="button" onclick="dfmToggleLang()" data-i18n="action.toggleLang">English / عربي</button>
             </div>
         </aside>
 
@@ -97,6 +106,7 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/dfm-i18n.js"></script>
     <script>
         function dfmToggleSidebar(forceOpen) {
             const shell = document.querySelector('.dfm-shell');

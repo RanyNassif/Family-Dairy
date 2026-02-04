@@ -5,78 +5,92 @@
     ViewData["Title"] = "Edit Product";
 }
 
-<h2>Edit Product</h2>
+<div class="dfm-pagehead mb-3">
+    <div>
+        <h1 class="dfm-h1 mb-1" data-i18n="label.editProduct">Edit Product</h1>
+        <div class="dfm-muted" data-i18n="label.productsCreateSubtitle">Define product names, base price, and profit rules.</div>
+    </div>
+</div>
 
 @if (!string.IsNullOrWhiteSpace(Model.Error))
 {
-        <div style="color:red">@Model.Error</div>
+    <div class="alert alert-danger d-flex align-items-start gap-2" role="alert">
+        <i class="bi bi-exclamation-triangle"></i>
+        <div>@Model.Error</div>
+    </div>
 }
 
-<form method="post">
-    <input type="hidden" name="Id" value="@Model.Id" />
+<div class="dfm-card p-3">
+    <form method="post" class="dfm-form">
+        <input type="hidden" name="Id" value="@Model.Id" />
 
-    <div>
-        <label>Name (EN)</label><br />
-        <input name="NameEn" value="@Model.NameEn" />
-    </div>
+        <div class="row g-3">
+            <div class="col-12 col-md-6">
+                <label class="form-label" data-i18n="label.nameEn">Name (EN)</label>
+                <input class="form-control" name="NameEn" value="@Model.NameEn" />
+            </div>
 
-    <div style="margin-top:10px;">
-        <label>Name (AR)</label><br />
-        <input name="NameAr" value="@Model.NameAr" />
-    </div>
+            <div class="col-12 col-md-6">
+                <label class="form-label" data-i18n="label.nameAr">Name (AR)</label>
+                <input class="form-control" name="NameAr" value="@Model.NameAr" />
+            </div>
 
-    <div style="margin-top:10px;">
-        <label>Label (EN) optional</label><br />
-        <input name="LabelEn" value="@Model.LabelEn" />
-    </div>
+            <div class="col-12 col-md-6">
+                <label class="form-label" data-i18n="label.labelEn">Label (EN) (optional)</label>
+                <input class="form-control" name="LabelEn" value="@Model.LabelEn" />
+            </div>
 
-    <div style="margin-top:10px;">
-        <label>Label (AR) optional</label><br />
-        <input name="LabelAr" value="@Model.LabelAr" />
-    </div>
+            <div class="col-12 col-md-6">
+                <label class="form-label" data-i18n="label.labelAr">Label (AR) (optional)</label>
+                <input class="form-control" name="LabelAr" value="@Model.LabelAr" />
+            </div>
 
-    <div style="margin-top:10px;">
-        <label>Base Price</label><br />
-        <input name="BasePrice" value="@Model.BasePrice" />
-    </div>
+            <div class="col-12 col-md-4">
+                <label class="form-label" data-i18n="label.basePrice">Base Price</label>
+                <input class="form-control" name="BasePrice" value="@Model.BasePrice" />
+            </div>
 
-    <hr />
+            <div class="col-12"><hr class="my-2" /></div>
 
-    <div>
-        <label>Factory Profit Type</label><br />
-        <select name="FactoryProfitType">
-            <option value="Fixed" selected="@(Model.FactoryProfitType == ProfitType.Fixed)">Fixed</option>
-            <option value="Percent" selected="@(Model.FactoryProfitType == ProfitType.Percent)">Percent</option>
-        </select>
-    </div>
+            <div class="col-12 col-md-4">
+                <label class="form-label" data-i18n="label.factoryProfitType">Factory Profit Type</label>
+                <select class="form-select" name="FactoryProfitType">
+                    <option value="Fixed" selected="@(Model.FactoryProfitType == ProfitType.Fixed)" data-i18n="label.factoryProfitTypeFixed">Fixed</option>
+                    <option value="Percent" selected="@(Model.FactoryProfitType == ProfitType.Percent)" data-i18n="label.factoryProfitTypePercent">Percent</option>
+                </select>
+            </div>
 
-    <div style="margin-top:10px;">
-        <label>Factory Profit Value</label><br />
-        <input name="FactoryProfitValue" value="@Model.FactoryProfitValue" />
-    </div>
+            <div class="col-12 col-md-4">
+                <label class="form-label" data-i18n="label.factoryProfitValue">Factory Profit Value</label>
+                <input class="form-control" name="FactoryProfitValue" value="@Model.FactoryProfitValue" />
+            </div>
 
-    <hr />
+            <div class="col-12"><hr class="my-2" /></div>
 
-    <div>
-        <label>Distributor Profit Type</label><br />
-        <select name="DistributorProfitType">
-            <option value="Fixed" selected="@(Model.DistributorProfitType == ProfitType.Fixed)">Fixed</option>
-            <option value="Percent" selected="@(Model.DistributorProfitType == ProfitType.Percent)">Percent</option>
-        </select>
-    </div>
+            <div class="col-12 col-md-4">
+                <label class="form-label" data-i18n="label.distributorProfitType">Distributor Profit Type</label>
+                <select class="form-select" name="DistributorProfitType">
+                    <option value="Fixed" selected="@(Model.DistributorProfitType == ProfitType.Fixed)" data-i18n="label.factoryProfitTypeFixed">Fixed</option>
+                    <option value="Percent" selected="@(Model.DistributorProfitType == ProfitType.Percent)" data-i18n="label.factoryProfitTypePercent">Percent</option>
+                </select>
+            </div>
 
-    <div style="margin-top:10px;">
-        <label>Distributor Profit Value</label><br />
-        <input name="DistributorProfitValue" value="@Model.DistributorProfitValue" />
-    </div>
+            <div class="col-12 col-md-4">
+                <label class="form-label" data-i18n="label.distributorProfitValue">Distributor Profit Value</label>
+                <input class="form-control" name="DistributorProfitValue" value="@Model.DistributorProfitValue" />
+            </div>
 
-    <div style="margin-top:10px;">
-        <label>Active</label>
-        <input type="checkbox" name="IsActive" checked="@(Model.IsActive)" />
-    </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="IsActive" checked="@(Model.IsActive)" id="IsActive" />
+                    <label class="form-check-label" for="IsActive" data-i18n="label.active">Active</label>
+                </div>
+            </div>
+        </div>
 
-    <div style="margin-top:15px;">
-        <button type="submit">Save</button>
-        <a href="/Products">Cancel</a>
-    </div>
-</form>
+        <div class="d-flex justify-content-end gap-2 mt-4">
+            <a class="btn btn-outline-secondary" href="/Products"><i class="bi bi-x"></i><span data-i18n="action.cancel">Cancel</span></a>
+            <button class="btn btn-primary" type="submit"><i class="bi bi-check2"></i><span data-i18n="action.save">Save</span></button>
+        </div>
+    </form>
+</div>
